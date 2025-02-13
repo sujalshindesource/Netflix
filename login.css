@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: rgb(10, 10, 10);
+}
+header{
+    background-image: url(hero.jpg);
+    background-color: rgb(0,0,0);
+    height: 870px;
+    width: 100%;
+    background-size: cover;
+}
+
+.navbar{
+    height: 80px;
+    align-items: center;
+    
+}
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.logo{
+    background-image: url(logoog.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    mix-blend-mode:difference;
+    /* mix-blend-mode:exclusion; */
+    /* mix-blend-mode:lighten; */
+    margin: 30px 10px 10px 100px;
+    align-items: center;
+    height: 150px;
+    width: 200px;
+}
+.nav-l{
+    display: flex;
+    margin: 30px 100px 10px 10px;
+}
+.drop{
+    height: 30px;
+    width: 100px;
+    color: white;
+    border-radius: 4px;
+    background-color: transparent;
+    text-align: center;
+    font-weight: 700;
+    border: 2px solid transparent;
+}
+.lan1{
+    display: flex;
+    border-radius: 4px;
+    border: 0.2px solid white;
+    margin-right: 10px;
+    height: 30px;
+    align-items: center;
+}
+.lang{
+    padding-left: 4px;
+    padding-top: 2px;
+}
+/* .fa-solid{
+    background-color: transparent;
+} */
+button{
+    border: 2px solid transparent;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    margin: 15px 0px 7px 0px;
+    border-radius: 4px;
+    height: 40px;
+    width: 90%;
+    font-size: 0.95rem;
+}
+
+
+/* hero-section */
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    width: 100%;
+    height: 600px;
+}
+.hero-content{
+    border-radius: 5px;
+    background-color: rgba(8, 8, 8, 0.8);
+    height: 90%;
+    width: 30%;
+}
+
+.actual-content{
+    margin: 50px 50px 50px 50px;
+}
+.actual-content p{
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: xx-large;   
+}
+.mail{
+    margin: 15px 0px 7px 0px;
+    border-radius: 4px;
+    height: 45px;
+    width: 90%;
+    display: block;
+    border: 0.5px solid white;
+    background-color: transparent;
+}
+
+.pass{
+    margin: 0px 0x 5px 0px;
+    border-radius: 4px;
+    height: 45px;
+    width: 90%;
+    display: block;
+    border: 0.5px solid white;
+    background-color: transparent;
+}
+
+.or{
+    margin: 15px 0px 15px 0px;
+    color: rgb(110, 112, 112);
+    display: flex;
+    justify-content: center;
+}
+.or p{
+    margin-right: 20px;
+    font-size: 1.5rem;
+}
+.code{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(82, 80, 80,0.5);
+    margin: 15px 0px 7px 0px;
+    border-radius: 4px;
+    height: 40px;
+    width: 90%;
+   
+}
+.code p{
+    color: white;
+    font-size: 1rem;
+}
