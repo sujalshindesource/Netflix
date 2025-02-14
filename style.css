@@ -307,9 +307,21 @@ h1{
     justify-content: space-between;
 }
 
+/* .q:hover{
+    display: none;
+}
+/*.ans::before{
+    display: none;
+}
+.ans:hover{
+    display: contents;
+} */
 .booxx:hover{
     animation-name: colorchange-more;
     animation-duration: 0.5s;
+    /* content: "hey"; */
+    content: "hey";
+    color: black;
 }
 
 .a{
