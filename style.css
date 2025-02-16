@@ -294,7 +294,9 @@ h1{
     
 }
 
-.booxx{
+
+/* for 1 q */
+.booxx1{
     color:white;
     height: 25px;
     background-color: rgb(55, 55, 54);
@@ -307,22 +309,119 @@ h1{
     justify-content: space-between;
 }
 
-/* .q:hover{
-    display: none;
-}
-/*.ans::before{
-    display: none;
-}
-.ans:hover{
-    display: contents;
-} */
-.booxx:hover{
+.booxx1:hover{
     animation-name: colorchange-more;
     animation-duration: 0.5s;
     /* content: "hey"; */
     content: "hey";
     color: black;
 }
+/* for 2 q */
+.booxx2{
+    color:white;
+    height: 25px;
+    background-color: rgb(55, 55, 54);
+    margin-top: 7px;
+    display: flex;
+    width: 1100px;
+    font-size: 20px;
+    /* text-align: center; */
+    padding: 24px;
+    justify-content: space-between;
+}
+
+.booxx2:hover{
+    animation-name: colorchange-more;
+    animation-duration: 0.5s;
+    /* content: "hey"; */
+    content: "hey";
+    color: black;
+}
+/* for 3 q */
+.booxx3{
+    color:white;
+    height: 25px;
+    background-color: rgb(55, 55, 54);
+    margin-top: 7px;
+    display: flex;
+    width: 1100px;
+    font-size: 20px;
+    /* text-align: center; */
+    padding: 24px;
+    justify-content: space-between;
+}
+
+.booxx3:hover{
+    animation-name: colorchange-more;
+    animation-duration: 0.5s;
+    /* content: "hey"; */
+    content: "hey";
+    color: black;
+}
+/* for 4 q */
+.booxx4{
+    color:white;
+    height: 25px;
+    background-color: rgb(55, 55, 54);
+    margin-top: 7px;
+    display: flex;
+    width: 1100px;
+    font-size: 20px;
+    /* text-align: center; */
+    padding: 24px;
+    justify-content: space-between;
+}
+
+.booxx4:hover{
+    animation-name: colorchange-more;
+    animation-duration: 0.5s;
+    /* content: "hey"; */
+    content: "hey";
+    color: black;
+}
+/* for 5 q */
+.booxx5{
+    color:white;
+    height: 25px;
+    background-color: rgb(55, 55, 54);
+    margin-top: 7px;
+    display: flex;
+    width: 1100px;
+    font-size: 20px;
+    /* text-align: center; */
+    padding: 24px;
+    justify-content: space-between;
+}
+
+.booxx5:hover{
+    animation-name: colorchange-more;
+    animation-duration: 0.5s;
+    /* content: "hey"; */
+    content: "hey";
+    color: black;
+}
+/* for 6 q */
+.booxx6{
+    color:white;
+    height: 25px;
+    background-color: rgb(55, 55, 54);
+    margin-top: 7px;
+    display: flex;
+    width: 1100px;
+    font-size: 20px;
+    /* text-align: center; */
+    padding: 24px;
+    justify-content: space-between;
+}
+
+.booxx6:hover{
+    animation-name: colorchange-more;
+    animation-duration: 0.5s;
+    /* content: "hey"; */
+    content: "hey";
+    color: black;
+}
+
 
 .a{
     margin-left: 900px;
