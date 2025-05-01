@@ -227,6 +227,11 @@ h1{
     justify-content: space-evenly;
     padding: 0px 1rem 0px 1rem;
 }
+
+.box:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
 /* .box-content:hover{
     animation-name: size-more;
     animation-duration: 1s;
@@ -263,10 +268,10 @@ h1{
     background-color: transparent;
 
 }
-/* .boox:hover{
-    animation-name: size-more;
-    animation-duration: 2s;
-} */
+.boox:hover{
+    transform: scale(1.07);
+    cursor: pointer;
+} 
 .boox-img{
     width: 310px;
     height: 300px;
@@ -545,4 +550,178 @@ ul a{
     height: 350px;
     }
     
+}
+
+.ang {
+    width: 900px;
+    height: 650px;
+    /* background-image: url(angry-birds.jpg); */
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s ease-in-out;
+    z-index: -1;
+    /* display: flex;
+    align-items: center;
+    justify-content: start; */
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.poster{
+    height: 500px;
+    width: 100%;
+    top: 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items:end;
+    justify-content: end;
+}
+
+.para{
+    margin: 10px 4px 10px 4px;
+    font-size:medium;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.khel {
+    width: 900px;
+    height: 650px;
+    /* background-image: url(angry-birds.jpg); */
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s ease-in-out;
+    z-index: -1;
+    /* display: flex;
+    align-items: center;
+    justify-content: start; */
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.dev {
+    width: 900px;
+    height: 650px;
+    /* background-image: url(angry-birds.jpg); */
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s ease-in-out;
+    z-index: -1;
+    /* display: flex;
+    align-items: center;
+    justify-content: start; */
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.mar {
+    width: 900px;
+    height: 650px;
+    /* background-image: url(angry-birds.jpg); */
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s ease-in-out;
+    z-index: -1;
+    /* display: flex;
+    align-items: center;
+    justify-content: start; */
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.sing {
+    width: 900px;
+    height: 650px;
+    /* background-image: url(angry-birds.jpg); */
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s ease-in-out;
+    z-index: -1;
+    /* display: flex;
+    align-items: center;
+    justify-content: start; */
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.s69 {
+    width: 900px;
+    height: 650px;
+    /* background-image: url(angry-birds.jpg); */
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s ease-in-out;
+    z-index: -1;
+    /* display: flex;
+    align-items: center;
+    justify-content: start; */
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.time {
+    width: 900px;
+    height: 650px;
+    /* background-image: url(angry-birds.jpg); */
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s ease-in-out;
+    z-index: -1;
+    /* display: flex;
+    align-items: center;
+    justify-content: start; */
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.open {
+    opacity: 1;
+    z-index: 999;
+}
+.watch{
+    border-radius: 4px;
+    height: 50px;
+    width: 200px;
+    margin: 0 10px 10px 0;
+}
+
+.watch:hover{
+    transition: all 0.3s ease-in-out; 
+    scale: 1.1;
 }
