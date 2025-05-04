@@ -1,0 +1,196 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: rgb(10, 10, 10);
+}
+
+.playgrnd{
+    width: 100%;
+    height: 85vh;
+    /* background-color: rgb(7, 4, 0); */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.opt{
+    width: 50%;
+    height: 90%;
+    /* background-color: aqua; */
+    margin-left: 20px;
+    /* margin-top: 5px; */
+}
+/* user option */
+.rock{
+    background-image: url(stone_final.png);
+    background-size: contain;
+    /* background-color: azure; */
+    width: 185px;
+    height: 180px;
+    transform: translateX(0px);
+    margin-top: 5px;
+    margin-left: 0px;
+    border-radius: 50%;
+    margin-bottom: 2px;
+}
+
+.paper{
+    background-image: url(paper\ sc.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 0px;
+    /* background-color: azure; */
+    width: 175px;
+    height: 182px;
+    border-radius: 50%;
+    margin-bottom: 2px;
+}
+
+.scissor{
+    background-image: url(scissor.jpg);
+    background-size:contain;
+    /* background-color: azure; */
+    margin-left: 0px;
+    width: 175px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.rock:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    /* animation: move 2s linear 0.3s none normal; */
+}
+.paper:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    /* animation: move 2s ease-in-out; */
+}
+.scissor:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    /* animation: move 2s ease-in-out; */
+}
+
+/* //comp options */
+
+.ref{
+    width: 50%;
+    height: 90%;
+    /* background-color: aqua; */
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    /* margin-top: 5px; */
+}
+.opt-c{
+    display: inline;
+
+}
+.rock-c{
+    background-image: url(stone_final.png);
+    background-size: cover;
+    /* background-color: azure; */
+    background-repeat: no-repeat;
+    width: 185px;
+    height: 180px;
+    margin-top: 5px;
+    border-radius: 50%;
+    margin-bottom: 2px;
+}
+
+.paper-c{
+    background-image: url(paper\ sc.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: azure; */
+    width: 185px;
+    height: 182px;
+    border-radius: 50%;
+    margin-bottom: 2px;
+}
+
+.scissor-c{
+    background-image: url(scissor.jpg);
+    background-size:cover;
+    /* background-color: azure; */
+    background-repeat: no-repeat;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.rock-c:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.paper-c:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.scissor-c:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+/* score ground */
+.scrgrnd{
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 7vh;
+}
+.user-scr{
+    font-size:larger;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0 5cqb 0 0;
+}
+.comp-scr{
+    font-size:larger;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0 0px 0 5px;
+}
+/* hitbar */
+.hitbar{
+    background-color: rgb(85, 71, 239);
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    font-size: x-large;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 43%;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+@keyframes moveback{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(-400px);
+    }
+ }
+
+.go{
+    animation: move 2s ease-in-out;
+}
+
+.goback{
+    animation: moveback 2s ease-in-out;
+}
+
+ @keyframes move{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(400px);
+    }
+ }
+
